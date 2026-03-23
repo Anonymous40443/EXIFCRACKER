@@ -39,6 +39,5 @@ O **EXIFCRACKER** é uma ferramenta desenvolvida para aniquilar rastros digitais
    ```
 
 ---
-**Chave de Acesso Padrão:** `4980KLB`
 
 **By: [Anonymous40443](https://github.com/Anonymous40443)**

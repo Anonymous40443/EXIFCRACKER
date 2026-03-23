@@ -6,10 +6,6 @@ import subprocess
 import getpass
 import shutil
 
-# --- COLORS (VERDE MÁXIMO HIGH INTENSITY) ---
-G = '\033[1;92m'  # Verde Matrix Brilhante
-R = '\033[1;91m'  # Vermelho Erro
-W = '\033[0m'     # Reset
 
 PASSWORD_REQUIRED = "4980KLB"
 
@@ -59,12 +55,6 @@ def deep_clean_and_save(input_path):
     print(f"\n{G}[*] LIMPANDO E RECONSTRUINDO ARQUIVO...{W}")
     
     try:
-        # COMANDO SUPREMO:
-        # -all= : Remove tudo
-        # -tagsfromfile @ -all:all : Reseta estrutura
-        # -CommonStateTags= : Mata tags do sistema
-        # --thumbnail : Arranca miniatura (que esconde GPS)
-        # -o : Cria um NOVO arquivo (evita o erro de sumir)
         cmd = [
             "exiftool", 
             "-all=", 
@@ -77,7 +67,6 @@ def deep_clean_and_save(input_path):
         result = subprocess.run(cmd, capture_output=True, text=True)
         
         if os.path.exists(output_path):
-            # Garante que você é o dono e pode ver o arquivo
             os.chmod(output_path, 0o644)
             print(f"\n{G}[✓] SUCESSO ABSOLUTO!{W}")
             print(f"{G}➤ ARQUIVO SALVO EM: {output_path}{W}")

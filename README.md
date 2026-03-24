@@ -53,3 +53,4 @@ python EXIFCRACKER.py
     ⚠️ AVISO: Esta ferramenta foi desenvolvida para fins de privacidade pessoal e segurança da informação. Use com responsabilidade.
 
 By: Anonymous40443 🕵️‍♂️
+# GRABER-X

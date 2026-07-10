@@ -1,5 +1,6 @@
-<img width="1376" height="768" alt="Gemini_Generated_Image_yhccztyhccztyhcc" src="https://github.com/user-attachments/assets/6c8701ed-489a-4fba-87de-335129ba09a7" />
-# 😈 EXIFCRACKER v3.0 - Forensics & Metadata Eraser
+<img width="1408" height="768" alt="Gemini_Generated_Image_pzq2hwpzq2hwpzq2" src="https://github.com/user-attachments/assets/c7197a6d-f07e-43d8-814d-55899369be0e" />
+
+😈 EXIFCRACKER v3.0 - Forensics & Metadata Eraser
 
 **EXIFCRACKER** é uma ferramenta de elite para análise e destruição de metadados em imagens. O sistema reconstrói os pixels do arquivo e elimina rastros de GPS, modelo de dispositivo, data/hora e miniaturas ocultas, devolvendo um arquivo totalmente "anônimo" para sua galeria.
 
